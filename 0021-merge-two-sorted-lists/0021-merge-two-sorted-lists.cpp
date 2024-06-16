@@ -63,12 +63,6 @@ class Solution
             }
 
             ListNode *node = newlist_head;
-            std::cout << "List:\n";
-            while (node != nullptr)
-            {
-                std::cout << node->val << "\n";
-                node = node->next;
-            }
 
             return newlist_head;
         }
