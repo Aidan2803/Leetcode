@@ -51,9 +51,6 @@ public:
             currentB = currentB->next;
         }
 
-        std::cout << "size A " << sizeA << "\n";
-        std::cout << "size B " << sizeB << "\n";
-
         auto diff = std::abs(sizeA - sizeB);
 
         currentA = headA;
@@ -64,13 +61,11 @@ public:
             }
         } else {
             for (int i = 0; i < diff; i++) {
-                std::cout << "diff " << diff << "\n";
                 currentA = currentA->next;
             }
         }
 
         while (currentA != nullptr && currentB != nullptr) {
-            std::cout << "currentA " << currentA << " currentB " << currentB << "\n";
             if (currentA == currentB) {
                 return currentA;
             }
