@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0566-reshape-the-matrix](https://github.com/Aidan2803/Leetcode/tree/master/0566-reshape-the-matrix) |
 | [1137-height-checker](https://github.com/Aidan2803/Leetcode/tree/master/1137-height-checker) |
 ## Sorting
 |  |
@@ -59,4 +60,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1137-height-checker](https://github.com/Aidan2803/Leetcode/tree/master/1137-height-checker) |
+## Matrix
+|  |
+| ------- |
+| [0566-reshape-the-matrix](https://github.com/Aidan2803/Leetcode/tree/master/0566-reshape-the-matrix) |
+## Simulation
+|  |
+| ------- |
+| [0566-reshape-the-matrix](https://github.com/Aidan2803/Leetcode/tree/master/0566-reshape-the-matrix) |
 <!---LeetCode Topics End-->
