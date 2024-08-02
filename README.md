@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Aidan2803/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0566-reshape-the-matrix](https://github.com/Aidan2803/Leetcode/tree/master/0566-reshape-the-matrix) |
 | [1137-height-checker](https://github.com/Aidan2803/Leetcode/tree/master/1137-height-checker) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/Aidan2803/Leetcode/tree/master/2210-find-target-indices-after-sorting-array) |
@@ -74,4 +75,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2210-find-target-indices-after-sorting-array](https://github.com/Aidan2803/Leetcode/tree/master/2210-find-target-indices-after-sorting-array) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Aidan2803/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 <!---LeetCode Topics End-->
