@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/Aidan2803/Leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Aidan2803/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0566-reshape-the-matrix](https://github.com/Aidan2803/Leetcode/tree/master/0566-reshape-the-matrix) |
+| [0643-maximum-average-subarray-i](https://github.com/Aidan2803/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [1137-height-checker](https://github.com/Aidan2803/Leetcode/tree/master/1137-height-checker) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/Aidan2803/Leetcode/tree/master/2210-find-target-indices-after-sorting-array) |
 ## Sorting
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Aidan2803/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0643-maximum-average-subarray-i](https://github.com/Aidan2803/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 ## Design
 |  |
 | ------- |
