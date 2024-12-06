@@ -11,13 +11,10 @@ public:
             sum += nums[i];
         }
 
-        std::cout << sum << "\n";
-
         max_avg = sum;
 
         while(right < nums.size()){
             sum = sum - nums[left] + nums[right];
-            std::cout << sum << "\n";
             if(sum > max_avg){max_avg = sum;}
 
             right++;
