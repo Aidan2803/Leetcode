@@ -2,7 +2,6 @@ class Solution {
 public:
     double findMaxAverage(vector<int>& nums, int k) {
         double sum = 0;
-        double avg = 0;
         double max_avg = 0;
 
         int left = 0;
@@ -14,18 +13,16 @@ public:
 
         std::cout << sum << "\n";
 
-        avg = sum / k;
-        max_avg = avg;
+        max_avg = sum;
 
         while(right < nums.size()){
             sum = sum - nums[left] + nums[right];
             std::cout << sum << "\n";
-            avg = sum / k;
-            if(avg > max_avg){max_avg = avg;}
+            if(sum > max_avg){max_avg = sum;}
 
             right++;
             left++;
         }
-        return max_avg;
+        return max_avg/k;
     }
 };
