@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/Aidan2803/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [1137-height-checker](https://github.com/Aidan2803/Leetcode/tree/master/1137-height-checker) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/Aidan2803/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
+| [1833-find-the-highest-altitude](https://github.com/Aidan2803/Leetcode/tree/master/1833-find-the-highest-altitude) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/Aidan2803/Leetcode/tree/master/2210-find-target-indices-after-sorting-array) |
 ## Sorting
 |  |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/Aidan2803/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0525-contiguous-array](https://github.com/Aidan2803/Leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Aidan2803/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [1833-find-the-highest-altitude](https://github.com/Aidan2803/Leetcode/tree/master/1833-find-the-highest-altitude) |
 ## Two Pointers
 |  |
 | ------- |
