@@ -134,4 +134,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0338-counting-bits](https://github.com/Aidan2803/Leetcode/tree/master/0338-counting-bits) |
+## Linked List
+|  |
+| ------- |
+| [0328-odd-even-linked-list](https://github.com/Aidan2803/Leetcode/tree/master/0328-odd-even-linked-list) |
 <!---LeetCode Topics End-->
