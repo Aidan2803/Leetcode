@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Aidan2803/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/Aidan2803/Leetcode/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/Aidan2803/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0384-shuffle-an-array](https://github.com/Aidan2803/Leetcode/tree/master/0384-shuffle-an-array) |
 | [0525-contiguous-array](https://github.com/Aidan2803/Leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Aidan2803/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0566-reshape-the-matrix](https://github.com/Aidan2803/Leetcode/tree/master/0566-reshape-the-matrix) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/Aidan2803/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0384-shuffle-an-array](https://github.com/Aidan2803/Leetcode/tree/master/0384-shuffle-an-array) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -138,4 +140,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0328-odd-even-linked-list](https://github.com/Aidan2803/Leetcode/tree/master/0328-odd-even-linked-list) |
+## Math
+|  |
+| ------- |
+| [0384-shuffle-an-array](https://github.com/Aidan2803/Leetcode/tree/master/0384-shuffle-an-array) |
+## Randomized
+|  |
+| ------- |
+| [0384-shuffle-an-array](https://github.com/Aidan2803/Leetcode/tree/master/0384-shuffle-an-array) |
 <!---LeetCode Topics End-->
