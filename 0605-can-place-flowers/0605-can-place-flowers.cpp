@@ -6,7 +6,6 @@ public:
           (i == flowerbed.size() - 1 || flowerbed[i + 1] == 0)) {
             flowerbed[i] = 1;
             n--;
-            std::cout << "here\n";
       }
     }
 
