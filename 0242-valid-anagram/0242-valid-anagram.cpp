@@ -5,16 +5,16 @@ public:
     if (s.size() != t.size()) {
       return false;
     }
+    int array[26];
 
-    std::unordered_map<char, int> map;
-
-    for (auto c : s) {
-      map[c]++;
+    for(auto c : s){
+        array[c - 'a']++;
     }
-    for (auto c : t) {
-      if (--map[c] < 0) {
-        return false;
-      }
+
+    for(auto c : t){
+        if(--array[c - 'a'] < 0){
+            return false;
+        }
     }
     return true;
   }
