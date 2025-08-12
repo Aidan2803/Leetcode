@@ -1,20 +1,13 @@
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
-        std::unordered_map<int, int> map;
-
-        for(int i = 0; i < nums.size(); i++){
-            if(map.contains(nums[i])){
-                std::cout << "???\n";
+        std::unordered_map<int,int> map;
+        for(int number : nums){
+            std::cout << map[number] << " " << number << "\n";
+            if(++map[number] > 1){
                 return true;
             }
-            std::cout << nums[i] << "\n";
-            map[nums[i]] = i;
-            std::cout << "in hash table " << map[nums[i]] << std::endl;
-
-            std::cout << "map.contains(nums[i]) " << map.contains(nums[i]) << std::endl;
         }
-
-        return false;        
+        return false;
     }
 };
