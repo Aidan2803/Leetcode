@@ -27,22 +27,14 @@ public:
       if (nums1[nums1_iter] < nums2[nums2_iter]) {
         new_test_vector.push_back(nums1[nums1_iter]);
         nums1_iter++;
-        std::cout << "num1 < num2\n";
-        print_vector(new_test_vector);
       } else if (nums1[nums1_iter] == nums2[nums2_iter]) {
         new_test_vector.push_back(nums1[nums1_iter]);
         new_test_vector.push_back(nums1[nums1_iter]);
         nums1_iter++;
         nums2_iter++;
-
-        std::cout << "num1 == num2\n";
-        print_vector(new_test_vector);
       } else {
         new_test_vector.push_back(nums2[nums2_iter]);
         nums2_iter++;
-        std::cout << "num1 > num2\n";
-        print_vector(new_test_vector);
-        
       }
       i++;
     }
