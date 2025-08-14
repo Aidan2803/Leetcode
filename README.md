@@ -125,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/Aidan2803/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0303-range-sum-query-immutable](https://github.com/Aidan2803/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0384-shuffle-an-array](https://github.com/Aidan2803/Leetcode/tree/master/0384-shuffle-an-array) |
 ## Prefix Sum
@@ -181,5 +182,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/Aidan2803/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Aidan2803/Leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+## Queue
+|  |
+| ------- |
+| [0232-implement-queue-using-stacks](https://github.com/Aidan2803/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 <!---LeetCode Topics End-->
