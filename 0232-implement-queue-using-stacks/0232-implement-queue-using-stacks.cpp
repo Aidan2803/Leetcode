@@ -1,51 +1,46 @@
 class MyQueue {
     private:
-    std::stack<int> stack_;
+    std::stack<int> in_stack_;
+       std::stack<int> out_stack_;
+
+       void transfer(){
+        while(!in_stack_.empty()){
+            out_stack_.push(in_stack_.top());
+            in_stack_.pop();
+        }
+       }
 public:
     MyQueue() {
         
     }
     
     void push(int x) {
-        stack_.push(x);
+        in_stack_.push(x);
     }
     
     int pop() {
-        std::vector<int> vect;
-        while(stack_.size() > 1){
-            vect.push_back(stack_.top());
-            stack_.pop();
-        }
-        int return_value = stack_.top();
-        stack_.pop();
-        
-        for(int i = vect.size()-1; i >= 0; i--){
-            stack_.push(vect[i]);
+        if(out_stack_.empty()){
+            if(!in_stack_.empty()){
+             transfer();
+            }
         }
 
-        return return_value;
+        int ret = out_stack_.top();
+        out_stack_.pop();
+        return ret;
     }
     
     int peek() {
-        std::vector<int> vect;
-        while(stack_.size() > 1){
-            vect.push_back(stack_.top());
-            stack_.pop();
+        if(out_stack_.empty()){
+            if(!in_stack_.empty()){
+             transfer();
+            }
         }
-        int return_value = stack_.top();
-        stack_.pop();
-        
-        stack_.push(return_value);
-        for(int i = vect.size()-1; i >= 0; i--){
-            stack_.push(vect[i]);
-        }
-
-        return return_value;
+        return out_stack_.top();
     }
     
     bool empty() {
-        std::cout << "size " << stack_.size() << "\n"; 
-        return stack_.empty();
+        return in_stack_.empty() && out_stack_.empty();
     }
 };
 
