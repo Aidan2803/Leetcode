@@ -1,16 +1,27 @@
 class Solution {
 public:
-    vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
-      std::unordered_set<int> nums1_set(nums1.begin(), nums1.end());
-      std::unordered_set<int> intersection;
+  vector<int> intersection(vector<int> &nums1, vector<int> &nums2) {
+    std::vector<int> results;
 
-      for(auto val : nums2){
-        if(nums1_set.contains(val)){
-            intersection.insert(val);
+    std::sort(nums1.begin(), nums1.end());
+    std::sort(nums2.begin(), nums2.end());
+
+    int i = 0;
+    int j = 0;
+
+    while (i < nums1.size() && j < nums2.size()) {
+      if (nums1[i] == nums2[j]) {
+        if (results.empty() || results.back() != nums1[i]) {
+          results.push_back(nums1[i]);
         }
+        i++;
+        j++;
+      } else if (nums1[i] < nums2[j]) {
+        i++;
+      } else {
+        j++;
       }
-    
-    vector<int> results(intersection.begin(), intersection.end());
-    return results;
     }
+    return results;
+  }
 };
