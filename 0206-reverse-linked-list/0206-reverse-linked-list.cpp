@@ -20,8 +20,7 @@ public:
  
 
         while(current != nullptr){
-            ListNode *after_current = current->next;    
-            std::cout << "val: " << current->val << "\n";
+            ListNode *after_current = current->next;
             current->next = prev;
             prev = current;
             current = after_current;
