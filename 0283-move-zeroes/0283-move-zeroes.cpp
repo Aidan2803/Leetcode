@@ -1,22 +1,16 @@
 class Solution {
 public:
   void moveZeroes(std::vector<int> &nums) {
-    int max_element = *(std::max_element(nums.begin(), nums.end()));
-    if (max_element == 0) {
-      return;
+    int zeroes_amount = 0;
+    for(int i = nums.size() - 1; i >= 0; i--){
+        if(nums[i] == 0){
+            zeroes_amount++;
+            nums.erase(nums.begin() + i);
+        }
     }
 
-    int zero_counter = 0;
-
-    for (auto it = nums.begin(); it != nums.end();) {
-      if (*it == 0) {
-        it = nums.erase(it);
-        zero_counter++;
-      } else {
-        ++it;
-      }
+    for(int i = 0; i < zeroes_amount; i++){
+        nums.push_back(0);
     }
-
-    nums.insert(nums.end(), zero_counter, 0);
   }
 };
