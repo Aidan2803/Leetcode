@@ -14,15 +14,17 @@ public:
             return false;
         }
 
-        ListNode *fast = head->next->next;
+        ListNode *fast = head;
         ListNode *slow = head;
 
         while(fast != nullptr && fast->next != nullptr){
+            fast = fast->next->next;
+            slow = slow->next;
+
             if(fast == slow){
                 return true;
             }
-            fast = fast->next->next;
-            slow = slow->next;
+
         }
         return false;
     }
