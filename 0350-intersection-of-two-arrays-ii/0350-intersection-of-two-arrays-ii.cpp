@@ -1,36 +1,25 @@
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
-        std::vector<int> result_vector;
+        if(nums1.size() > nums2.size()) {
+            return intersect(nums2, nums1); // ensure nums1 is smaller
+        }
+
         std::unordered_map<int, int> number_to_amount;
+        std::vector<int> result;
 
-        if(nums1.size() > nums2.size()){
-            for(int i = 0; i < nums1.size(); i++){
-                number_to_amount[nums1[i]]++;
-            }
-            
-            for(int i = 0; i < nums2.size(); i++){
-                auto it = number_to_amount.find(nums2[i]);
-                if(it != number_to_amount.end() && it->second != 0){
-                    result_vector.push_back(nums2[i]);
-                    number_to_amount[nums2[i]]--;
-                }
-            }
-        } else {
-            for(int i = 0; i < nums2.size(); i++){
-                number_to_amount[nums2[i]]++;
-            }
+        for(int num : nums1){
+            number_to_amount[num]++;
+        }
 
-            for(int i = 0; i < nums1.size(); i++){
-                auto it = number_to_amount.find(nums1[i]);
-                if(it != number_to_amount.end() && it->second != 0){
-                    result_vector.push_back(nums1[i]);
-                    number_to_amount[nums1[i]]--;
-                }
+        for(int num : nums2){
+            auto it = number_to_amount.find(num);
+            if(it != number_to_amount.end() && it->second > 0){
+                result.push_back(num);
+                it->second--;
             }
         }
 
-        return result_vector;
-
+        return result;
     }
 };
