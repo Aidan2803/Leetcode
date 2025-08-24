@@ -8,7 +8,8 @@ public:
 
         for(int i = 0; i < nums.size(); i++){
             int find = target - nums[i];
-            if(map[find] && map[find] != i){
+            auto it = map.find(find);
+            if(it != map.end() && it->second != i){
                 return std::vector<int>{i, map[find]};
             }
         }
